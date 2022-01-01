@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 50vw;
+  align-items: center;
+  margin: 23rem auto;
+  background-color: rgba(128, 128, 128, 0.274);
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.decrement,
+.increment {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+.decrement:hover,
+.increment:hover {
+  background-color: black;
+  color: white;
+}
+
+#number {
+  font-size: 2rem;
+  font-weight: bold;
+}
